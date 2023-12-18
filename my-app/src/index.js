@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Count from './Count';
+import Count from './js/Count';
 import reportWebVitals from './reportWebVitals';
 import ToggleButton from './ToggleButton';
 import IndexExample from './IndexExample'

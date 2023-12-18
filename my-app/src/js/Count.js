@@ -10,7 +10,7 @@ function Addcount(){
       return(
         <div>
           <h1>숫자:{count}</h1>
-          <img src={h}/>
+          <img src={h} style={{width:300}}/><br/>
           <button onClick={inceament}>증가시키는 버튼</button>
         </div>
       )
