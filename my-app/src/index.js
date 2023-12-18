@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Count from './Count';
 import reportWebVitals from './reportWebVitals';
+import ToggleButton from './ToggleButton';
+import IndexExample from './IndexExample'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/*<App /> //react에서 주석은 {/** /으로 표기함 */}
+    <Count />
+    <ToggleButton />
+    <IndexExample />
   </React.StrictMode>
 );
 

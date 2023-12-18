@@ -40,9 +40,10 @@ function App() {
 
 function Counter(){
   //자바스크립트 코드 작성하는 공간
-  const [count,setCount]=useState(0);
+  //[초기값, 변결될 값] = 초기값 설정해주는 공간
+  const [count,setCount]=useState(0); //초기값을 0으로 줌
   const inceament = () => {
-    setCount(count + 1)
+    setCount(count + 1) //
   }
   return( //html 태그 코드는 return 안에 작성해줌
     <div>
