@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import h from "./img/h.png";
+import h from "../img/h.png";
 function Addcount(){
 
     //useState를 활용해서 값 증가하는 함수를 완성할 것

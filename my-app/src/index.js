@@ -4,16 +4,18 @@ import './index.css';
 import App from './App';
 import Count from './js/Count';
 import reportWebVitals from './reportWebVitals';
-import ToggleButton from './ToggleButton';
-import IndexExample from './IndexExample'
+import ToggleButton from './js/ToggleButton';
+import IndexExample from './js/IndexExample';
+import ImgChange from './js/ImageChange';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/*<App /> //react에서 주석은 {/** /으로 표기함 */}
-    <Count />
-    <ToggleButton />
-    <IndexExample />
+    {/*<Count />*/}
+    {/*<ToggleButton />*/}
+    {/*<IndexExample />*/}
+    <ImgChange />
   </React.StrictMode>
 );
 
