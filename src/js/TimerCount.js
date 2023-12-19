@@ -6,10 +6,13 @@ function Timer(){
         document.title = `남은 티켓${count}`
     })
 
+    const increament = () => setCount(count + 1);
+
     return(
         <div>
             <p>{count}</p>
-            <button onClick={() => setCount(count + 1)}></button>
+            <button onClick={increament}></button>
+            {/*<button onClick={() => setCount(count + 1)}*/}
         </div>
     )
 }
