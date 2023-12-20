@@ -10,6 +10,7 @@ import ImgChange from './js/ImageChange';
 import ObjectExample from './js/ObjectExample';
 import AnimalSound from './js/Animal';
 import TimerCount from './js/TimerCount'
+import ChildComponent from './js/ChildComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,9 @@ root.render(
     {/*<ImgChange />*/}
     {/*<ObjectExample />*/}
     {/*<AnimalSound />*/}
-    <TimerCount />
+    {/*<TimerCount />*/}
+    <ChildComponent />
+
   </React.StrictMode>
 );
 
